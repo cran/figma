@@ -1,7 +1,7 @@
 Package: figma
 Type: Package
 Title: Web Client/Wrapper to the 'Figma API'
-Version: 0.1.0
+Version: 0.2.0
 Authors@R: person("Pedro", "Faria", role = c("aut", "cre", "cph"), email = "pedropark99@gmail.com")
 Author: Pedro Faria [aut, cre, cph]
 Maintainer: Pedro Faria <pedropark99@gmail.com>
@@ -14,13 +14,14 @@ Description: An easy-to-use web client/wrapper for the 'Figma API' <https://www.
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
-Imports: httr (>= 1.4.1), purrr (>= 0.3.3), dplyr (>= 1.0.0), rlang (>=
-        1.0.0), tibble (>= 3.0.5)
-RoxygenNote: 7.2.1
-Suggests: knitr, rmarkdown, usethis, emoji
+Imports: httr (>= 1.4.1), purrr (>= 0.3.3), dplyr (>= 1.0.0), tidyr (>=
+        1.0.0), rlang (>= 1.0.0), tibble (>= 3.0.5)
+RoxygenNote: 7.2.3
+Suggests: knitr, rmarkdown, usethis, emoji, testthat (>= 3.0.0)
 VignetteBuilder: knitr
 Depends: R (>= 4.1)
+Config/testthat/edition: 3
 NeedsCompilation: no
-Packaged: 2022-11-02 16:59:44 UTC; pedro
+Packaged: 2023-01-02 23:16:21 UTC; pedro
 Repository: CRAN
-Date/Publication: 2022-11-02 19:50:11 UTC
+Date/Publication: 2023-01-06 09:10:06 UTC

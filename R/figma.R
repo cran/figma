@@ -169,7 +169,7 @@ get_figma_file <- function(file_key,
 #' metadata of your Figma file, and ignores all canvas and objects data.
 #'
 #' By default, \code{get_document_info()} fits the metadata into a raw R list.
-#' But you can change this behaviour with the \code{.output_format} argument.
+#' But you can change this behavior with the \code{.output_format} argument.
 #' With \code{.output_format = "tibble"}, \code{get_document_info()} will
 #' fit the metadata into a \code{tibble::tibble} object.
 #'
@@ -193,7 +193,7 @@ get_document_info <- function(file_key, token, .output_format = "list"){
     token,
     .output_format = "figma_document"
   )
-  r <- parse_document_metadata(r, .output_format)
+  r <- document_metadata(r, attrs = NULL)
   return(r)
 }
 
